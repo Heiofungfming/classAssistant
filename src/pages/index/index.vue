@@ -4,6 +4,7 @@
 		<view>
 			<text class="title">{{title}}</text>
 		</view>
+    <u-button type="primary">主要按钮</u-button>
 	</view>
 </template>
 
@@ -15,7 +16,7 @@
 			}
 		},
 		onLoad() {
-
+      console.log(this.$u.config.v, 111111111)
 		},
 		methods: {
 
